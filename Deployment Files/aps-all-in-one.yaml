@@ -521,9 +521,9 @@ spec:
             - name: AZURE_OPENAI_DEPLOYMENT_NAME # required if using Azure OpenAI
               value: "gpt-4-deployment"
             - name: AZURE_OPENAI_ENDPOINT # required if using Azure OpenAI
-              value: "https://imagesai.openai.azure.com/openai/deployments/gpt-4-deployment/chat/completions?api-version=2024-08-01-preview"
+              value: "https://gpt-4-deployment.openai.azure.com/"
             - name: AZURE_OPENAI_DALLE_ENDPOINT
-              value: "https://imagesai.openai.azure.com/openai/deployments/alle-3-deployment/images/generations?api-version=2024-02-01"
+              value: "https://alle-3-deployment.openai.azure.com/"
             - name: AZURE_OPENAI_DALLE_DEPLOYMENT_NAME
               value: "alle-3-deployment"
             - name: OPENAI_API_KEY # always required
