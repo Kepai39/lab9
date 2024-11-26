@@ -519,13 +519,13 @@ spec:
             - name: AZURE_OPENAI_API_VERSION
               value: "2024-07-01-preview"
             - name: AZURE_OPENAI_DEPLOYMENT_NAME # required if using Azure OpenAI
-              value: ""
+              value: "gpt-4-deployment"
             - name: AZURE_OPENAI_ENDPOINT # required if using Azure OpenAI
-              value: ""
+              value: "https://imagesai.openai.azure.com/openai/deployments/gpt-4-deployment/chat/completions?api-version=2024-08-01-preview"
             - name: AZURE_OPENAI_DALLE_ENDPOINT
-              value: ""
+              value: "https://imagesai.openai.azure.com/openai/deployments/alle-3-deployment/images/generations?api-version=2024-02-01"
             - name: AZURE_OPENAI_DALLE_DEPLOYMENT_NAME
-              value: ""
+              value: "alle-3-deployment"
             - name: OPENAI_API_KEY # always required
               valueFrom:
                 secretKeyRef:
